@@ -7,11 +7,19 @@
     <title>Aula 1 - 01-06-2021</title>
     <style>
         h1 {
-            color:red;
+            color:green;
         }
     </style>
 </head>
 <body>
-    <h1>Olá Mundo - Aula 1</h1>
+    <h1 id="n-h1">Olá Mundo - Aula 1</h1>
 </body>
 </html>
+<script>
+    function teste1() {
+        var txt = "Alo Mundo = Bom dia";
+        var tagH1 = document.getElementById("n-h1");
+        tagH1.innerHTML=txt;
+    }
+    teste1();
+</script>
